@@ -1,33 +1,21 @@
-
 ## 1. Estructura (Oscar)
-
 - Se propone un rover **"arácnido"**.
 - Se propone usar un **tornillo central** en lugar de un brazo de siembra con eje hueco, para hacer el hueco y sembrar en una sola operación.
 - **Dudas abiertas:** material y tipo de llantas necesarios para tener suficiente tracción.
-
-![[Pasted image 20261105092726.png]]
-
+![Captura de pantalla del rover arácnido](<Relatorias/IMG_Box/Pasted image 20261105092726.png>)
 ---
-
 ## 2. Visión (Daniel)
-
 - Ya se presentó el proyecto a **Hernán**.
 - Se propone empezar con **Q-learning** y luego migrar a **Deep Q-learning**.
 - **Hardware propuesto:** una cámara del laboratorio de industrial o un **Kinect 1**.
 - Se presentó una **simulación en Webots** con un escenario de **3 obstáculos**, obteniendo profundidad con Python (ver imagen).
-
-![[Pasted image 20261105093102.png]]
-
+![Simulación en Webots con 3 obstáculos](<Relatorias/IMG_Box/Pasted image 20261105093102.png>)
 - **Artículo usado por Daniel:** https://www.mdpi.com/2076-0825/13/1/26
 - Se propone usar la **Jetson Nano** como punto de partida; si no se requiere tanto cómputo, se puede bajar a un modelo más básico.
-
 ---
-
 ## 3. Comunicaciones (Carlos)
-
-![[Pasted image 20261105093549.png]]
-![[Pasted image 20261105093611.png]]
-
+![Dashboard de comunicaciones 1](<Relatorias/IMG_Box/Pasted image 20261105093549.png>)
+![Dashboard de comunicaciones 2](<Relatorias/IMG_Box/Pasted image 20261105093611.png>)
 - **Hay conflicto entre Walter y Carlos xD**
 - Carlos propone unos **dashboards** que reciben cualquier tipo de CSV.
 - Propone una **Raspberry Pi 4 de 2GB**, pero bajo los parámetros de MQTT sería insuficiente (falso).
@@ -36,7 +24,6 @@
 - **Cristian** propone usar las comunicaciones directamente en la **Jetson**.
 - **Walter** dice que hay **Jetson limitadas** en el laboratorio; Cristian propone conseguir una en industrial.
 - **Falta aclarar:** si la comunicación debe ser directa a la estación o por un punto intermedio.
-
 ```mermaid
 stateDiagram-v2
 	[*] --> Rover
@@ -44,20 +31,20 @@ stateDiagram-v2
 	Tierra --> Rover
 	Tierra --> Cloud
 	Cloud --> [*]
+	
 ```
 
 - Se propone usar los **LoRa de Dianita <3**
-
 ---
 
 ## 4. Dashboard (Walter)
 
-![[Pasted image 20261105095251.png]]
+![Dashboard anterior propuesto por Walter](<relatorias/IMG_Box/Pasted image 20261105095251.png>)
 
 - Walter propone un **dashboard anterior**.
 - Se propone trabajar con **Lu** en toda la parte de sensores: adquisición, formateo de datos y transmisión LoRa.
 
-![[Pasted image 20261105095452.png]]
+![Esquema de sensores y transmisión LoRa](<relatorias/IMG_Box/Pasted image 20261105095452.png>)
 
 ### Modos de exploración por zona
 - **A.** Exploración
@@ -68,7 +55,7 @@ stateDiagram-v2
 
 ### Modo manual
 
-![[Pasted image 20261105095736.png]]
+![Modo manual del dashboard](<relatorias/IMG_Box/Pasted image 20261105095736.png>)
 
 ### Modo retorno a base
 - Generar una **ruta de retorno** basada en la ruta previa.
@@ -82,7 +69,7 @@ Una **matriz por zonas** para indicar dónde sembrar según lo que indique el ju
 
 - Generar un **mapa de la zona** y verificar datos por sector para informar al granjero.
 
-![[Pasted image 20261105100135.png]]
+![Mapa de la zona por sectores](<relatorias/IMG_Box/Pasted image 20261105100135.png>)
 
 - **Seguimiento de cultivo.**
 
