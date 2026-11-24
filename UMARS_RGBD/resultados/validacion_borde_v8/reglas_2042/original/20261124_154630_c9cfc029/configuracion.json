@@ -1,0 +1,43 @@
+{
+  "version": "v8",
+  "experimento": "C",
+  "dinamico": true,
+  "politica": "reglas",
+  "semilla": 2042,
+  "entrenamiento": 0,
+  "evaluacion": 20,
+  "max_acciones": 120,
+  "alpha": 0.1,
+  "gamma": 0.95,
+  "epsilon_inicial": 1.0,
+  "epsilon_minimo": 0.05,
+  "decaimiento": 0.95,
+  "penalizacion_giro": 0.0,
+  "basicTimeStep_ms": 32,
+  "pasos_webots_por_accion": 3,
+  "escala_velocidad": 1.0,
+  "amplitud_norte": 0.35,
+  "amplitud_sur_x": 0.25,
+  "amplitud_sur_y": 0.25,
+  "desfase_norte": 0.0,
+  "desfase_sur": 0.0,
+  "meta": [
+    2.2,
+    0.75,
+    0.01
+  ],
+  "posicion_inicial": [
+    -1.5,
+    0.0,
+    0.15
+  ],
+  "paneles_webots": [
+    "rgb",
+    "depth",
+    "lidar_display"
+  ],
+  "modelo_colision": "circulo-rectangulo temporal, rocas y rover sincronizados",
+  "tabla_v7_origen": null,
+  "tabla_v7_sha256": null,
+  "prueba_borde": "original"
+}

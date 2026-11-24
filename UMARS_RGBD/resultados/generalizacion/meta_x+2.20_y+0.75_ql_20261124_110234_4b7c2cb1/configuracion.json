@@ -1,0 +1,74 @@
+{
+  "modo": "generalizacion",
+  "politica": "q",
+  "meta": [
+    2.2,
+    0.75,
+    0.01
+  ],
+  "inicios": [
+    {
+      "nombre": "base",
+      "x": -1.5,
+      "y": 0.0,
+      "rumbo_deg": 0.0
+    },
+    {
+      "nombre": "norte",
+      "x": -1.5,
+      "y": 0.5,
+      "rumbo_deg": 0.0
+    },
+    {
+      "nombre": "sur",
+      "x": -1.5,
+      "y": -0.5,
+      "rumbo_deg": 0.0
+    },
+    {
+      "nombre": "oeste",
+      "x": -2.0,
+      "y": 0.0,
+      "rumbo_deg": 0.0
+    }
+  ],
+  "max_acciones": 120,
+  "epsilon": 0.0,
+  "tabla_q": "resultados/diagnostico_ql_meta_lejana_v7_max120/q_table.npy",
+  "sha256_tabla_q": "cdae124fb748e478299231413f38ff28001b086a8a30d7b9ed3762547a7e4e6c",
+  "limites_terreno": [
+    -3.0,
+    3.0,
+    -2.0,
+    2.0
+  ],
+  "obstaculos": [
+    [
+      "roca_central",
+      [
+        -0.125,
+        0.325,
+        -0.275,
+        0.275
+      ]
+    ],
+    [
+      "piedra_lateral_izquierda",
+      [
+        0.41,
+        0.79,
+        0.76,
+        1.24
+      ]
+    ],
+    [
+      "piedra_lateral_derecha",
+      [
+        1.0,
+        1.6,
+        -1.05,
+        -0.55
+      ]
+    ]
+  ]
+}

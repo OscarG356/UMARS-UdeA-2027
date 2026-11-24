@@ -1,0 +1,5 @@
+episodio,meta_x,meta_y,pasos,retorno,resultado,distancia_final,epsilon,inicio,x_inicio,y_inicio,rumbo_inicio_deg
+1,2.2,0.75,25,82.20527,META,0.1726,0.0,base,-1.5,0.0,0.0
+2,2.2,0.75,23,83.7801,META,0.3184,0.0,norte,-1.5,0.5,0.0
+3,2.2,0.75,33,74.37239,META,0.2192,0.0,sur,-1.5,-0.5,0.0
+4,2.2,0.75,27,80.87647,META,0.3282,0.0,oeste,-2.0,0.0,0.0

@@ -1,0 +1,246 @@
+#VRML_SIM R2025a utf8
+
+# UMARS - MALER: vista superior + RGB + profundidad.
+
+WorldInfo {
+  title "UMARS - MALER v8 | Estatico"
+  basicTimeStep 32
+  coordinateSystem "ENU"
+} 
+
+# VISTA 3: Superior, mirando hacia abajo (-Z).
+Viewpoint {
+  orientation 0 1 0 1.57079632679
+  position 0 0 8
+  fieldOfView 0.95
+  description "Vista superior UMARS"
+} 
+
+Background {
+  skyColor [
+    0.76 0.63 0.5
+  ]
+}
+
+DirectionalLight {
+  direction -0.4 0.4 -1
+  intensity 1.4
+}
+
+# TERRENO MARCIANO
+Solid {
+  translation 0 0 -0.06
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.63 0.4 0.26
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 6 4 0.12
+      }
+    }
+  ]
+  name "terreno_marciano_simplificado"
+  boundingObject Box {
+    size 6 4 0.12
+  }
+}
+
+# ROVER UMARS - SUPERVISOR
+DEF UMARS_ROVER Robot {
+  translation -1.5 0 0.15
+  rotation 0 0 1 0
+  name "UMARS_rover_Q"
+  controller "umars_v8"
+  supervisor TRUE
+
+  children [
+
+    # Chasis
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.13 0.24 0.48
+        roughness 0.6
+      }
+      geometry Box {
+        size 0.35 0.3 0.18
+      }
+    }
+
+    # Marca naranja para indicar el frente (+X)
+    Transform {
+      translation 0.12 0 0.105
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0.42 0.08
+            roughness 0.5
+          }
+          geometry Box {
+            size 0.09 0.065 0.02
+          }
+        }
+      ]
+    }
+
+    # VISTA 1: Camara RGB frontal
+    Camera {
+      translation 0.19 0 0.15
+      name "rgb"
+      fieldOfView 2.1
+      width 320
+      height 240
+      near 0.05
+    }
+
+    # VISTA 2: Sensor de profundidad frontal
+    RangeFinder {
+      translation 0.19 0 0.15
+      name "depth"
+      fieldOfView 2.1
+      width 160
+      height 120
+      near 0.05
+      minRange 0.05
+      maxRange 5.0
+    }
+    Lidar {
+      translation 0 0 0.15
+      name "lidar_seguridad"
+      horizontalResolution 181
+      fieldOfView 4.712389
+      numberOfLayers 1
+      verticalFieldOfView 0.2
+      near 0.05
+      minRange 0.05
+      maxRange 5.0
+      type "fixed"
+      projection "cylindrical"
+    }
+    Display {
+      name "lidar_display"
+      width 640
+      height 360
+    }
+  ]
+}
+
+# ROCA CENTRAL
+Solid {
+  translation 0.1 0 0.25
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.34 0.28 0.24
+        roughness 1
+      }
+      geometry Box {
+        size 0.45 0.55 0.5
+      }
+    }
+  ]
+  name "roca_central"
+  boundingObject Box {
+    size 0.45 0.55 0.5
+  }
+}
+
+# PIEDRA LATERAL IZQUIERDA
+Solid {
+  translation 0.6 1 0.17
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.45 0.36 0.28
+        roughness 1
+      }
+      geometry Box {
+        size 0.38 0.48 0.34
+      }
+    }
+  ]
+  name "piedra_lateral_izquierda"
+  boundingObject Box {
+    size 0.38 0.48 0.34
+  }
+}
+
+# PIEDRA LATERAL DERECHA
+Solid {
+  translation 1.3 -0.8 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.39 0.34 0.28
+        roughness 1
+      }
+      geometry Box {
+        size 0.6 0.5 0.4
+      }
+    }
+  ]
+  name "piedra_lateral_derecha"
+  boundingObject Box {
+    size 0.6 0.5 0.4
+  }
+}
+  
+  
+  # ============================================
+# META DE NAVEGACION - UMARS
+# ============================================
+
+DEF UMARS_META Solid {
+  translation 2.2 0.75 0.01
+  name "meta_UMARS"
+
+  children [
+    # Borde blanco de la meta
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 1
+        roughness 0.8
+      }
+      geometry Box {
+        size 0.55 0.55 0.02
+      }
+    }
+
+    # Superficie verde
+    Transform {
+      translation 0 0 0.015
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.05 0.9 0.25
+            emissiveColor 0.02 0.2 0.04
+            roughness 0.8
+          }
+          geometry Box {
+            size 0.43 0.43 0.02
+          }
+        }
+      ]
+    }
+
+    # Centro de la meta
+    Transform {
+      translation 0 0 0.03
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 1 1
+            roughness 0.8
+          }
+          geometry Box {
+            size 0.12 0.12 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+
+

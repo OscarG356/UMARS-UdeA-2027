@@ -1,0 +1,3 @@
+experimento,politica,fase,episodio,semilla_escenario,omega_norte,omega_sur,fase_norte,fase_sur,inicio_x,inicio_y,meta_x,meta_y,pasos,giros_puros,giros_con_avance_seguro,giros_forzados,distancia_recorrida_m,retorno_entrenamiento,retorno_base,penalizacion_total,resultado,exito,colision,tiempo_simulado_s,vetos_trayectoria,contactos_geometricos,intervenciones_antibucle,epsilon,distancia_final_meta_m
+A,q,EVALUACION,1,42,0.0,0.0,0.0,0.0,-1.5,0.0,2.2,0.75,107,73,31,42,6.754463717861481,-0.13310172509478946,-0.13310172509478946,0.0,META,1,0,10.272000000000007,0,0,31,0.0,0.34179919874991893
+A,q,EVALUACION,2,42,0.0,0.0,0.0,0.0,-1.5,0.0,2.2,0.75,107,73,31,42,6.754463717861481,-0.13310172509478946,-0.13310172509478946,0.0,META,1,0,10.272000000000007,0,0,31,0.0,0.34179919874991893

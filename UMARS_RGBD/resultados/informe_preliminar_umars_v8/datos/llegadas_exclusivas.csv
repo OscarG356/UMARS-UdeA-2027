@@ -1,0 +1,133 @@
+semilla,escenario,izquierda,derecha,resultado_izquierda,resultado_derecha
+42,300044,C histórica,D histórica,COLISION_piedra_lateral_izquierda,META
+42,300046,C histórica,D histórica,META,COLISION_piedra_lateral_izquierda
+42,300049,C histórica,D histórica,META,COLISION_piedra_lateral_izquierda
+42,300044,C histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+42,300054,C histórica,C nueva,META,SIN_ACCIONES_SEGURAS_BORDE
+42,300058,C histórica,C nueva,META,SIN_ACCIONES_SEGURAS_BORDE
+42,300044,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+42,300048,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+42,300062,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+42,300048,C histórica,Reglas,COLISION_piedra_lateral_izquierda,META
+42,300049,C histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300056,C histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300060,C histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300062,C histórica,Reglas,COLISION_piedra_lateral_izquierda,META
+42,300046,D histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+42,300049,D histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+42,300054,D histórica,C nueva,META,SIN_ACCIONES_SEGURAS_BORDE
+42,300058,D histórica,C nueva,META,SIN_ACCIONES_SEGURAS_BORDE
+42,300046,D histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+42,300048,D histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+42,300049,D histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+42,300062,D histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+42,300044,D histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300046,D histórica,Reglas,COLISION_piedra_lateral_izquierda,META
+42,300048,D histórica,Reglas,COLISION_piedra_lateral_izquierda,META
+42,300056,D histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300060,D histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300062,D histórica,Reglas,COLISION_piedra_lateral_izquierda,META
+42,300048,C nueva,D nueva,COLISION_piedra_lateral_izquierda,META
+42,300054,C nueva,D nueva,SIN_ACCIONES_SEGURAS_BORDE,META
+42,300058,C nueva,D nueva,SIN_ACCIONES_SEGURAS_BORDE,META
+42,300062,C nueva,D nueva,COLISION_piedra_lateral_izquierda,META
+42,300044,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300048,C nueva,Reglas,COLISION_piedra_lateral_izquierda,META
+42,300049,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300054,C nueva,Reglas,SIN_ACCIONES_SEGURAS_BORDE,META
+42,300056,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300058,C nueva,Reglas,SIN_ACCIONES_SEGURAS_BORDE,META
+42,300060,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300062,C nueva,Reglas,COLISION_piedra_lateral_izquierda,META
+42,300044,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300049,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300056,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+42,300060,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+1042,301043,C histórica,D histórica,COLISION_piedra_lateral_izquierda,META
+1042,301049,C histórica,D histórica,COLISION_piedra_lateral_izquierda,META
+1042,301054,C histórica,D histórica,COLISION_piedra_lateral_izquierda,META
+1042,301056,C histórica,D histórica,COLISION_piedra_lateral_izquierda,META
+1042,301058,C histórica,D histórica,COLISION_piedra_lateral_izquierda,META
+1042,301043,C histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+1042,301049,C histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+1042,301051,C histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+1042,301054,C histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+1042,301056,C histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+1042,301058,C histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+1042,301043,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+1042,301049,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+1042,301051,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+1042,301052,C histórica,D nueva,META,COLISION_piedra_lateral_izquierda
+1042,301054,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+1042,301056,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+1042,301058,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+1042,301043,C histórica,Reglas,COLISION_piedra_lateral_izquierda,META
+1042,301051,C histórica,Reglas,COLISION_piedra_lateral_izquierda,META
+1042,301051,D histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+1042,301051,D histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+1042,301052,D histórica,D nueva,META,COLISION_piedra_lateral_izquierda
+1042,301049,D histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+1042,301051,D histórica,Reglas,COLISION_piedra_lateral_izquierda,META
+1042,301054,D histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+1042,301056,D histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+1042,301058,D histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+1042,301052,C nueva,D nueva,META,COLISION_piedra_lateral_izquierda
+1042,301049,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+1042,301054,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+1042,301056,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+1042,301058,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+1042,301049,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+1042,301052,D nueva,Reglas,COLISION_piedra_lateral_izquierda,META
+1042,301054,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+1042,301056,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+1042,301058,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302044,C histórica,D histórica,COLISION_piedra_lateral_izquierda,META
+2042,302047,C histórica,D histórica,COLISION_piedra_lateral_izquierda,META
+2042,302052,C histórica,D histórica,COLISION_piedra_lateral_izquierda,META
+2042,302056,C histórica,D histórica,COLISION_piedra_lateral_izquierda,META
+2042,302061,C histórica,D histórica,MAX_ACCIONES,META
+2042,302062,C histórica,D histórica,COLISION_piedra_lateral_izquierda,META
+2042,302044,C histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+2042,302047,C histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+2042,302052,C histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+2042,302056,C histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+2042,302061,C histórica,C nueva,MAX_ACCIONES,META
+2042,302062,C histórica,C nueva,COLISION_piedra_lateral_izquierda,META
+2042,302044,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302047,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302052,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302056,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302058,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302059,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302060,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302061,C histórica,D nueva,MAX_ACCIONES,META
+2042,302062,C histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302044,C histórica,Reglas,COLISION_piedra_lateral_izquierda,META
+2042,302049,C histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302051,C histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302052,C histórica,Reglas,COLISION_piedra_lateral_izquierda,META
+2042,302062,C histórica,Reglas,COLISION_piedra_lateral_izquierda,META
+2042,302058,D histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302059,D histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302060,D histórica,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302047,D histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302049,D histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302051,D histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302056,D histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302061,D histórica,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302058,C nueva,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302059,C nueva,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302060,C nueva,D nueva,COLISION_piedra_lateral_izquierda,META
+2042,302047,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302049,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302051,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302056,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302061,C nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302047,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302049,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302051,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302056,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302058,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302059,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302060,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda
+2042,302061,D nueva,Reglas,META,COLISION_piedra_lateral_izquierda

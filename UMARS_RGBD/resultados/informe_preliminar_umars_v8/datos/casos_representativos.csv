@@ -1,0 +1,4 @@
+caso,politica,semilla,semilla_escenario,resultado,acciones,giros,distancia_recorrida_m,tiempo_simulado_s,fuente
+Llegada con menos acciones,C nueva,42,300051,META,22,0,4.379508673037666,2.1120000000000014,resultados/aprendizaje_borde_v8/entrenar/C_42/20261124_155706_b7df0a3c
+Llegada con más acciones,C histórica,2042,302049,META,90,55,6.938526019112998,8.640000000000006,resultados/aprendizaje_borde_v8/comparar/C_2042/20261124_170157_6a50bcc1
+Fallo registrado,C nueva,42,300048,COLISION_piedra_lateral_izquierda,13,3,1.9886159294653694,1.2480000000000009,resultados/aprendizaje_borde_v8/entrenar/C_42/20261124_155706_b7df0a3c
